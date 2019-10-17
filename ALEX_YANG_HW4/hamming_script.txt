@@ -1,0 +1,6 @@
+reset
+as hamming hamming
+ld hamming
+set PC 1
+set R0 15
+set R1 241

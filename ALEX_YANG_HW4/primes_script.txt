@@ -1,0 +1,7 @@
+reset
+as primes primes
+ld primes
+set R0 4
+set PC 0
+
+
