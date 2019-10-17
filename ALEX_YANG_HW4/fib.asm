@@ -22,15 +22,15 @@ LOOP	CMPI R0, #0	; Compare B to 0
 	ADD R4, R2, #0	;
 	ADD R2, R3, #0	;
 	ADD R3, R4, #0	;
-	ADD R3, R3, R2	;
+	ADD R3, R3, R2	; Perform add operation
 
-	CONST R4, #0	;
+	CONST R4, #0	; 
 	ADD R0, R0, #-1	; B =  B - 1
 
 	BRnzp LOOP	; Go back to the beginning of the loop
 
 INPUT1
-	CONST R1, #1	;
+	CONST R1, #1	;  Handle input = 1 case
 	BRnzp END2 		;
 
 END	ADD R1, R3, #0;
