@@ -1,0 +1,19 @@
+reset
+
+as os os
+ld os
+
+as test test 
+ld test
+
+set R0 40
+set R1 40
+set R2 xFFC0CB
+set R3 x4000
+
+set PC 33447
+
+
+
+
+
